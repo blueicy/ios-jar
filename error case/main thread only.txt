@@ -1,0 +1,37 @@
+ [WKWebView .cxx_construct] must be used from main thread only
+===================
+
+
+Symptom
+———————————
+iOS - [WKWebView .cxx_construct] must be used from main thread only
+
+
+
+Reason
+———————————
+evaluateJavaScript:completionHandler:  call
+
+
+
+Solution
+———————————
+main thread trace backwards to where you're invoking it incorrectly.
+
+
+```objective-c
+dispatch_async(dispatch_get_main_queue(), ^{
+    // code here
+});
+
+
+```
+‘’’
+Test line (haha)
+‘’’
+
+
+
+Remark
+————
+https://stackoverflow.com/questions/52779511/ios-wkwebview-cxx-construct-must-be-used-from-main-thread-only
