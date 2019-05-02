@@ -45,3 +45,19 @@ I think you should use an
 `<addr>` element here instead.
 
 '<swift>' '< >'
+
+    NSLog(@"Hello!");
+    
+        NSLog(@"Markdown!");
+
+- [x] eat
+- [x] sleep
+- [] play
+- [] get
+
+Movie | Country
+--------|------------
+Jaws   | USA
+Jk        | UK
+
+
