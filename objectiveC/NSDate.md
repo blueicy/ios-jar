@@ -20,4 +20,18 @@ Find timeInterval of day
             
             NSTimeInterval dateInterval = [resultDate timeIntervalSince1970];
 	
-	[components release];			>
+	[components release];			
+>
+
+
+NSDate to int
+-----------------
+<
+    SDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"dd"];
+
+    NSString *stringFromDate = [formatter stringFromDate:[NSDate date]];
+    NSInteger integerDate = [stringFromDate integerValue];          
+>
+
+

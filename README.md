@@ -35,7 +35,8 @@ Remark
 
 Development setting
 ------------------------
-
+xcode
+svn
 
 
 
