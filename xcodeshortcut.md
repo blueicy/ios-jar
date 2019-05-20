@@ -23,7 +23,8 @@ One word
 Big one word
 ** ctrl  +  shift  +  <-or->  **
 
-
+Function  remark
+**  Cmd + Option + /    **
 
 
   
