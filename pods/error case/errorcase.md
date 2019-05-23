@@ -7,9 +7,9 @@ Pods error case
 
 Symptom
 
-<img src = './pods/error case/docimage/pod_errorname_swiftversion.png' width = '480' height = '360' />
+<img src = './pods/error case/docImage/pod_errorname_swiftversion.png' width = '480' height = '360' />
 
-![pod_errorname_swiftversion](./pods/error case/docimage/pod_errorname_swiftversion.png)
+![pod_errorname_swiftversion](./pods/error case/docImage/pod_errorname_swiftversion.png)
 
 
 Reason
@@ -31,8 +31,8 @@ https://stackoverflow.com/questions/46338588/xcode-9-swift-language-version-swif
 2.always embed swift standard libraries
 ------------------
 Symptom
-<img src = './pods/error case/docimage/pod_errorname_alwaysembedswiftlibrary' width = '480' height = '360' />
-![pod_errorname_swiftversion](./pods/error case/docimage/pod_errorname_alwaysembedswiftlibrary.png)
+<img src = './pods/error case/docImage/pod_errorname_alwaysembedswiftlibrary' width = '480' height = '360' />
+![pod_errorname_swiftversion](./pods/error case/docImage/pod_errorname_alwaysembedswiftlibrary.png)
 
 
 
